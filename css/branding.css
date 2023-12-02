@@ -1,0 +1,107 @@
+* {
+  /* outline: 1px solid lime; */
+}
+
+
+
+.text-size-medium {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: normal;
+}
+
+
+.layout420_card {
+  background-size: cover;
+  background-position: center;
+}
+
+.layout420_card h5 {
+  font-size: 2.5rem
+}
+
+.layout420_card.card-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/img-5.jpg);
+}
+
+.layout420_card.card-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/img-6.jpg);
+}
+
+.layout420_card.card-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/img-7.jpg);
+}
+
+
+
+.button {
+  border-radius: 0.313rem;
+  font-weight: 600;
+  padding: 1em 2em;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  border: 1px solid #b30c35;
+  background-color: #b30c35;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+}
+
+.button.is-secondary {
+  border: 1px solid #fff;
+}
+
+
+.button.is-link {
+  text-transform: unset;
+  color: #b30c35;
+}
+
+.button.is-link span {
+  border-radius: 0.313rem;
+  padding: 0.313rem;
+  color: #fff;
+  background-color: #b30c35;
+}
+
+
+
+
+
+
+.product8_heading-wrapper {
+  gap: unset;
+  text-align: center;
+}
+
+
+
+.product8_heading-wrapper .max-width-large {
+  max-width: unset;
+}
+
+.product8_heading-wrapper .product8_button-row {
+  display: none;
+}
+
+
+.product8_item .button {
+  border: 1px solid #000;
+}
+
+
+
+footer {
+  background-color: #000;
+}
+
+footer .line-divider {
+  background-color: #fff;
+}
+
+footer a,
+.footer4_bottom-wrapper>div {
+  color: #fff;
+}
